@@ -13,7 +13,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 1.3rem;
   color: var(--text-color);
   display: flex;
   flex-direction: column;
@@ -130,4 +129,10 @@ footer {
   text-transform: uppercase;
   padding: 24px 0;
   color: var(--off-white);
+}
+
+@media only screen and (max-width: 500px){
+  body {
+    font-size: 14px;
+  }
 }
