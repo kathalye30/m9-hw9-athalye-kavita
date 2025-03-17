@@ -59,6 +59,7 @@ main > article, nav{
 
 nav {
   display: flex;
+  flex-direction: column;
 }
 
 nav > a:not(:first-of-type){
