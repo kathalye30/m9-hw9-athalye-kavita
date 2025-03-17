@@ -52,7 +52,7 @@ main a {
 }
 
 main > article, nav{
-  max-width: 1200px;
+  max-width: none;
   margin: 0 auto;
   box-sizing: border-box;
 }
